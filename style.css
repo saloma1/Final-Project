@@ -18,6 +18,8 @@ header {
     align-items: center;
     padding: 20px 60px;
 }
+
+
 strong {
     color: #f97316;
     font-size: 25px;
@@ -29,6 +31,7 @@ strong {
     height: 100px;
     margin-right: 0px;
 } 
+
 
 nav a {
     margin: 0 15px;
@@ -279,10 +282,104 @@ p{
 .footer-banner p {
     text-align: left;
     font-size: 15px bold;
-    width: 100%;
+    width: 50%;
     margin-top: 10px;
     top: 68%;
     color: white;
     /* padding: 10px 20px; */
 
+}
+
+
+/* responsive part  */
+
+@media (max-width: 992px) {
+header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 15px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero {
+    flex-direction: column;
+    padding: 30px 20px;
+}
+
+.hero-text h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.hero-text p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.buttons {
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-img {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.base-img {
+    width: 90%;
+    height: auto;
+}
+
+.top-img {
+    width: 150px;
+    height: auto;
+    left: 0;
+    top: -30px;
+}
+
+
+.triangle-wrap,
+.triangle-right,
+.triangle.yelloow {
+    transform: scale(0.6);
+    right: auto !important;
+    left: 10px;
+    bottom: 30px;
+}
+
+.footer-banner p {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+}
+
+
+@media (max-width: 768px) {
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+nav a {
+    font-size: 16px;
+}
+
+.contact-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.shop-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+}
 }
