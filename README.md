@@ -1,7 +1,7 @@
 
 ## 🎨 Design Reference (Figma)
 You can view the full design prototype on Figma:
-👉 [Figma File]([https://www.figma.com/file/your-figma-file-link](https://www.figma.com/design/BbAKzMY3sKMAJNN8InIcDk/Purecha?node-id=74-25&t=KUu0vkMBDG5X2kkm-0))
+👉 [Figma File](https://www.figma.com/design/BbAKzMY3sKMAJNN8InIcDk/Purecha?node-id=74-25&t=KUu0vkMBDG5X2kkm-0)
 
 
 ## 🌐 Live Demo
